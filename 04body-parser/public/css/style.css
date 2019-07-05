@@ -1,0 +1,223 @@
+*
+{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+
+.row1
+{
+	background-image:url("../images/background.jpg");
+	height:450px;
+	background-repeat:no-repeat;
+	background-size:cover;
+	padding-left:0;
+	width:100%;
+}
+
+.con
+{
+	height:100vh;
+	overflow-x: hidden;
+
+}
+
+.nav-item>.nav-link
+{
+	font-size:20px;
+	color:white !important;
+	width:120px;
+	padding-left:40px;
+	text-align:center;
+	border-radius:10px;
+	letter-spacing:0.5px;
+	font-family: 'Roboto', sans-serif;
+
+
+}
+
+.clr
+{
+	width:300px !important;
+}
+.nav-link:hover
+{
+	background-color:green;
+}
+
+@media(max-width:560px)
+{
+
+.nav-item>.nav-link
+{
+	width:450px;
+}
+
+.clr
+{
+	width:450px !important;
+}
+
+.btn1
+{
+	width:450px;
+	margin-left:10px;
+}
+.search
+{
+	width:450px !important;
+	margin-left:10px;
+}
+
+
+.about
+{
+	display:flex;
+	justify-content:center;
+}
+
+.stext
+{
+	margin-top:20px;
+	margin-left:20px;
+}
+
+
+.image1
+{
+	height:300px;
+	width:400px;
+	margin-left:10px;
+}
+.row4
+{
+	margin-bottom:1100px;
+}
+
+.row2
+{
+	height:800px;
+	margin-bottom:400px;
+
+}
+
+.stext-2
+{
+	font-size:40px !important;
+}
+
+.stext-3
+{
+	font-size:20px !important;
+	line-height:25px !important;
+}
+.row3
+{
+	text-align:center;
+}
+
+.card-row
+{
+	margin-top:-10px!important;
+	margin-left:-40px !important;
+}
+
+.card
+{
+	margin-top:30px;
+}
+.para
+{
+	margin-left: 50px!important;
+}
+.wid
+{
+	width:400px !important;
+	margin-left:50px !important;
+}
+.row5
+{
+	height:750px !important;
+}
+
+.butn
+{
+	margin-top:-100px !important;
+	width:400px!important;
+	margin-left:50px !important;
+}
+
+.con
+{
+	height:100%;
+
+}
+
+}
+/*media tag close*/
+
+.row2
+{
+	height:300px;
+}
+
+.row3
+{
+	height:500px;
+	background-image:url(../images/2.jpg);
+	background-attachment:fixed;
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.stext
+{
+	line-height:40px;
+	text-indent:right;
+	
+}
+
+.stext-2
+{
+	font-size:60px;
+	color:white;
+	font-family: 'Lobster', cursive;
+	letter-spacing:1px;
+
+}
+.stext-3
+{
+	font-size:25px;
+	color:white;
+	letter-spacing:1px;
+	line-height:40px;
+	font-family: 'Source Serif Pro', serif;
+}
+.row4
+{
+	height:700px;
+}
+
+.row5
+{
+	height:700px;
+	background-image:url(../images/contact.jpg);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+
+.para
+{
+	color:white;
+}
+.para1
+{
+	color:white;
+}
+
+
+
+
